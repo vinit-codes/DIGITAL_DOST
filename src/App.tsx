@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ExternalLink, Mail, Instagram, MapPin, Globe, Search, Camera, TrendingUp, Palette, Send, ArrowRight } from 'lucide-react';
+import { Menu, X, ExternalLink, Mail, Instagram, Globe, Search, Camera, TrendingUp, Palette, Send, ArrowRight, Phone } from 'lucide-react';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +18,26 @@ function App() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
+  const teamMembers = [
+    {
+      name: "Vineeth",
+      email: "kunduvineeth0@gmail.com",
+      phone: "7682887844",
+      icon: <Phone className="h-8 w-8 text-gray-900" />
+    },
+    {
+      name: "Abhishek",
+      email: "abhishek.live.connect@gmail.com",
+      phone: "8962276125",
+      icon: <Phone className="h-8 w-8 text-gray-900" />
+    },
+    {
+      name: "Aryan",
+      email: "aryan12@gmail.com",
+      phone: "7260075767",
+      icon: <Phone className="h-8 w-8 text-gray-900" />
+    }
+  ];
   const services = [
     {
       icon: <Globe className="w-8 h-8" />,
@@ -66,7 +85,7 @@ function App() {
       title: "Indowoven – Eco Bags Brand",
       link: "https://indowoven.com",
       description: "Website for a sustainable bag manufacturing company. Modern storytelling layout with clear call-to-actions and product presentation.",
-      image: "https://images.pexels.com/photos/1029896/pexels-photo-1029896.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://images.pexels.com/photos/7771968/pexels-photo-7771968.jpeg",
       tags: ["E-commerce", "Sustainability", "Brand"]
     }
   ];
@@ -273,18 +292,18 @@ function App() {
 
       {/* Contact Section */}
       <section id="contact" className="py-24 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-20">
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">Get In Touch</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ready to take your business to the next level? Let's discuss how we can help you grow.
-            </p>
-          </div>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="text-center mb-20">
+        <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">Contact Us</h2>
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          Contact us for more details. We're here to help you grow your business.
+        </p>
+      </div>
 
-          <div className="max-w-5xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              {/* Contact Form */}
-              <div className="bg-white p-10 rounded-3xl shadow-lg border border-gray-100">
+      <div className="max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          {/* Contact Form */}
+          <div className="bg-white p-10 rounded-3xl shadow-lg border border-gray-100">
                 <h3 className="text-2xl font-bold text-gray-900 mb-8">Send us a message</h3>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
@@ -342,60 +361,47 @@ function App() {
                 </form>
               </div>
 
-              {/* Contact Info */}
-              <div className="space-y-8">
-                <div className="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                  <div className="flex items-center mb-4">
-                    <div className="bg-gray-100 p-4 rounded-2xl mr-4">
-                      <Mail className="h-8 w-8 text-gray-900" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-gray-900 text-xl">Email</h3>
-                      <a 
-                        href="mailto:abhishek.live.connect@gmail.com"
-                        className="text-gray-600 hover:text-gray-900 transition-colors duration-200 text-lg"
-                      >
-                        abhishek.live.connect@gmail.com
-                      </a>
-                    </div>
-                  </div>
-                </div>
 
-                <div className="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                  <div className="flex items-center mb-4">
-                    <div className="bg-gray-100 p-4 rounded-2xl mr-4">
-                      <Instagram className="h-8 w-8 text-gray-900" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-gray-900 text-xl">Instagram</h3>
-                      <a 
-                        href="https://instagram.com/yourhandle"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-gray-900 transition-colors duration-200 text-lg"
-                      >
-                        @yourhandle
-                      </a>
-                    </div>
+          {/* Team Contact Info */}
+          <div className="space-y-8">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Our Team</h3>
+            
+            {teamMembers.map((member, index) => (
+              <div 
+                key={index} 
+                className="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300"
+              >
+                <div className="flex items-center mb-4">
+                  <div className="bg-gray-100 p-4 rounded-2xl mr-4">
+                    {member.icon}
                   </div>
-                </div>
-
-                <div className="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                  <div className="flex items-center mb-4">
-                    <div className="bg-gray-100 p-4 rounded-2xl mr-4">
-                      <MapPin className="h-8 w-8 text-gray-900" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-gray-900 text-xl">Location</h3>
-                      <p className="text-gray-600 text-lg">India (Remote-friendly)</p>
+                  <div>
+                    <h3 className="font-bold text-gray-900 text-xl">{member.name}</h3>
+                    <div className="mt-2">
+                      <a 
+                        href={`mailto:${member.email}`}
+                        className="flex items-center text-gray-600 hover:text-gray-900 transition-colors duration-200 text-lg"
+                      >
+                        <Mail className="h-5 w-5 mr-2" />
+                        {member.email}
+                      </a>
+                      <a 
+                        href={`tel:+91${member.phone}`}
+                        className="flex items-center text-gray-600 hover:text-gray-900 transition-colors duration-200 text-lg mt-2"
+                      >
+                        <Phone className="h-5 w-5 mr-2" />
+                        +91 {member.phone}
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-16">
