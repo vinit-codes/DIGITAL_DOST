@@ -94,9 +94,9 @@ function App() {
   ];
 
   const stats = [
-    { value: "50+", label: "Projects Completed" },
+    { value: "3+", label: "Projects Completed" },
     { value: "95%", label: "Client Satisfaction" },
-    { value: "3x", label: "Average Growth" },
+    { value: "2x", label: "Average Growth" },
     { value: "24/7", label: "Support" }
   ];
 
@@ -235,7 +235,6 @@ function App() {
         </div>
       </section>
 
-      {/* About Section */}
       {/* About Section */}
 <section id="about" className="py-24 bg-white">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
