@@ -497,7 +497,7 @@ function App() {
                         <div className="mt-2">
                           <a 
                             href={`mailto:${member.email}`}
-                            className="flex items-center text-slate-600 hover:text-indigo-700 transition-colors duration-200"
+                            className="flex items-center text-slate-600 hover:text-indigo-700 transition-colors duration-200 break-all"
                           >
                             <Mail className="h-5 w-5 mr-2" />
                             {member.email}
