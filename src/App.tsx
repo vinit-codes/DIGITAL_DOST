@@ -118,8 +118,16 @@ const portfolio = [
     description: "A professional website built for skincare clinics to highlight services like laser facials and skin rejuvenation, and bring in more consultations.",
     image: "https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg",
     tags: ["Skin Clinic", "Facials", "Local Clients"]
+  },
+    {
+    title: "Professional Website for doctors",
+    link: "https://elixir-mu-henna.vercel.app/",
+    description: "A professional website built for doctors to highlight their premium services and bring in more consultations.",
+    image: "https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg",
+    tags: ["Skin Clinic", "Facials", "Local Clients"]
   }
 ];
+
 
 
 
