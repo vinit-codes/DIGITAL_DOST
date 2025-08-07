@@ -95,17 +95,32 @@ const portfolio = [
     title: "Fashion Store – Shopify",
     link: "https://bi7xsv-f5.myshopify.com/",
     description: "An e-commerce website for a fashion brand, built with Shopify for reliability, fast checkout, and modern UX.",
-    image: "https://images.pexels.com/photos/8485725/pexels-photo-8485725.jpeg", // Replace with your own screenshot if needed
+    image: "https://images.pexels.com/photos/8485725/pexels-photo-8485725.jpeg",
     tags: ["Shopify", "Fashion", "Store"]
   },
   {
     title: "Fashion Store – Custom Build",
     link: "https://sheetal-9pkn.vercel.app",
     description: "A sleek, animated e-commerce website for a fashion brand. Developed using Next.js, Zustand, and Wix SDK.",
-    image: "https://images.pexels.com/photos/33327418/pexels-photo-33327418.png", // Replace with screenshot URL if needed
+    image: "https://images.pexels.com/photos/33327418/pexels-photo-33327418.png",
     tags: ["Next.js", "E-commerce", "Fashion"]
+  },
+  {
+    title: "Cafe ",
+    link: "https://cafe-five-neon.vercel.app/",
+    description: "A cozy and inviting cafe site with a modern aesthetic, smooth animations, and a focus on ambience and menu highlights.",
+    image: "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg",
+    tags: ["Cafe", "Next.js", "Animated"]
+  },
+  {
+    title: "Skin Clinic",
+    link: "https://doctor-rqtz.vercel.app/",
+    description: "A professional website for a skin treatment clinic. Highlights laser facials, rejuvenation services, and skincare solutions with elegant animations.",
+    image: "https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg",
+    tags: ["Clinic", "Skin", "Next.js"]
   }
 ];
+
 
 
   const stats = [
