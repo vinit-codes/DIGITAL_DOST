@@ -69,29 +69,44 @@ function App() {
     }
   ];
 
-  const portfolio = [
-    {
-      title: "Salon Website",
-      link: "https://saloon-next-js-9i6e.vercel.app/",
-      description: "A sleek and elegant salon site built with Next.js. Clean layout, fast performance, and perfect for local beauty businesses.",
-      image: "https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tags: ["Next.js", "Responsive", "Beauty"]
-    },
-    {
-      title: "Gym Website",
-      link: "https://gym-site-nextjs-two.vercel.app/",
-      description: "Bold, responsive gym website with class schedules, bookings, and brand-focused visuals. Built using modern frontend technologies.",
-      image: "https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tags: ["React", "Booking", "Fitness"]
-    },
-    {
-      title: "Indowoven – Eco Bags Brand",
-      link: "https://indowoven.com",
-      description: "Website for a sustainable bag manufacturing company. Modern storytelling layout with clear call-to-actions and product presentation.",
-      image: "https://images.pexels.com/photos/7771968/pexels-photo-7771968.jpeg",
-      tags: ["E-commerce", "Sustainability", "Brand"]
-    }
-  ];
+const portfolio = [
+  {
+    title: "Salon Website",
+    link: "https://saloon-next-js-9i6e.vercel.app/",
+    description: "A sleek and elegant salon site built with Next.js. Clean layout, fast performance, and perfect for local beauty businesses.",
+    image: "https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=600",
+    tags: ["Next.js", "Responsive", "Beauty"]
+  },
+  {
+    title: "Gym Website",
+    link: "https://gym-site-nextjs-two.vercel.app/",
+    description: "Bold, responsive gym website with class schedules, bookings, and brand-focused visuals. Built using modern frontend technologies.",
+    image: "https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=600",
+    tags: ["React", "Booking", "Fitness"]
+  },
+  {
+    title: "Indowoven – Eco Bags Brand",
+    link: "https://indowoven.com",
+    description: "Website for a sustainable bag manufacturing company. Modern storytelling layout with clear call-to-actions and product presentation.",
+    image: "https://images.pexels.com/photos/7771968/pexels-photo-7771968.jpeg",
+    tags: ["E-commerce", "Sustainability", "Brand"]
+  },
+  {
+    title: "Fashion Store – Shopify",
+    link: "https://bi7xsv-f5.myshopify.com/",
+    description: "An e-commerce website for a fashion brand, built with Shopify for reliability, fast checkout, and modern UX.",
+    image: "https://images.pexels.com/photos/8485725/pexels-photo-8485725.jpeg", // Replace with your own screenshot if needed
+    tags: ["Shopify", "Fashion", "Store"]
+  },
+  {
+    title: "Fashion Store – Custom Build",
+    link: "https://sheetal-9pkn.vercel.app",
+    description: "A sleek, animated e-commerce website for a fashion brand. Developed using Next.js, Zustand, and Wix SDK.",
+    image: "https://images.pexels.com/photos/33327418/pexels-photo-33327418.png", // Replace with screenshot URL if needed
+    tags: ["Next.js", "E-commerce", "Fashion"]
+  }
+];
+
 
   const stats = [
     { value: "3+", label: "Projects Completed" },
@@ -138,7 +153,7 @@ function App() {
           <div className="flex justify-between items-center h-20">
             <div className="flex-shrink-0">
               <h1 className="text-3xl font-bold bg-gradient-to-r from-indigo-600 to-indigo-800 bg-clip-text text-transparent">
-                HYPE
+                OFFLINE DOST
               </h1>
             </div>
             
@@ -200,7 +215,7 @@ function App() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 mb-8 leading-tight">
               Transform Your Business with <br />
               <span className="bg-gradient-to-r from-indigo-600 via-indigo-700 to-indigo-800 bg-clip-text text-transparent">
-                HYPE Digital
+                OFFLINE DOST
               </span>
             </h1>
             <p className="text-lg sm:text-xl lg:text-2xl text-slate-600 mb-12 leading-relaxed max-w-3xl mx-auto">
