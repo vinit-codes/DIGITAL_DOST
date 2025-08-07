@@ -71,53 +71,53 @@ function App() {
 
 const portfolio = [
   {
-    title: "Salon Website",
+    title: "Salon Website for Local Beauty Parlour",
     link: "https://saloon-next-js-9i6e.vercel.app/",
-    description: "A sleek and elegant salon site built with Next.js. Clean layout, fast performance, and perfect for local beauty businesses.",
+    description: "A stylish and clean website perfect for local salons to showcase services, attract walk-ins, and boost bookings online.",
     image: "https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=600",
-    tags: ["Next.js", "Responsive", "Beauty"]
+    tags: ["Salon", "Beauty", "Bookings"]
   },
   {
-    title: "Gym Website",
+    title: "Gym Website for Fitness Centers",
     link: "https://gym-site-nextjs-two.vercel.app/",
-    description: "Bold, responsive gym website with class schedules, bookings, and brand-focused visuals. Built using modern frontend technologies.",
+    description: "Made for local gyms and trainers to display class timings, highlight success stories, and get more clients through online bookings.",
     image: "https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=600",
-    tags: ["React", "Booking", "Fitness"]
+    tags: ["Gym", "Fitness", "Local"]
   },
   {
-    title: "Indowoven – Eco Bags Brand",
+    title: "Indowoven – Brand Website for Handmade Eco Bags",
     link: "https://indowoven.com",
-    description: "Website for a sustainable bag manufacturing company. Modern storytelling layout with clear call-to-actions and product presentation.",
+    description: "A clean and modern website for a handmade bag brand to tell their story, display products, and attract bulk buyers.",
     image: "https://images.pexels.com/photos/7771968/pexels-photo-7771968.jpeg",
-    tags: ["E-commerce", "Sustainability", "Brand"]
+    tags: ["Eco Bags", "Handmade", "Brand"]
   },
   {
-    title: "Fashion Store – Shopify",
+    title: "Online Store for Fashion Brand (Shopify)",
     link: "https://bi7xsv-f5.myshopify.com/",
-    description: "An e-commerce website for a fashion brand, built with Shopify for reliability, fast checkout, and modern UX.",
+    description: "An easy-to-manage online store built for clothing businesses to sell directly to customers with fast checkout and mobile-friendly design.",
     image: "https://images.pexels.com/photos/8485725/pexels-photo-8485725.jpeg",
-    tags: ["Shopify", "Fashion", "Store"]
+    tags: ["Fashion", "Store", "Online Sales"]
   },
   {
-    title: "Fashion Store – Custom Build",
+    title: "Fashion Website with Custom Features",
     link: "https://sheetal-9pkn.vercel.app",
-    description: "A sleek, animated e-commerce website for a fashion brand. Developed using Next.js, Zustand, and Wix SDK.",
+    description: "A beautiful and smooth fashion website built from scratch to match a premium look and feel — perfect for modern clothing brands.",
     image: "https://images.pexels.com/photos/33327418/pexels-photo-33327418.png",
-    tags: ["Next.js", "E-commerce", "Fashion"]
+    tags: ["Fashion", "Premium", "Custom"]
   },
   {
-    title: "Cafe ",
+    title: "Cafe Website to Attract Local Visitors",
     link: "https://cafe-five-neon.vercel.app/",
-    description: "A cozy and inviting cafe site with a modern aesthetic, smooth animations, and a focus on ambience and menu highlights.",
+    description: "A warm, inviting website to showcase your cafe, highlight your menu, and attract more walk-in and takeaway orders.",
     image: "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg",
-    tags: ["Cafe", "Next.js", "Animated"]
+    tags: ["Cafe", "Menu", "Local Business"]
   },
   {
-    title: "Skin Clinic",
+    title: "Skin Clinic Website for Laser & Facial Services",
     link: "https://doctor-rqtz.vercel.app/",
-    description: "A professional website for a skin treatment clinic. Highlights laser facials, rejuvenation services, and skincare solutions with elegant animations.",
+    description: "A professional website built for skincare clinics to highlight services like laser facials and skin rejuvenation, and bring in more consultations.",
     image: "https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg",
-    tags: ["Clinic", "Skin", "Next.js"]
+    tags: ["Skin Clinic", "Facials", "Local Clients"]
   }
 ];
 
