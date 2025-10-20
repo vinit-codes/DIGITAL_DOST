@@ -33,12 +33,19 @@ function App() {
       phone: "8962276125",
       icon: <Phone className="h-8 w-8 text-indigo-600" />
     },
+     {
+      name: "Priyabrata ",
+      email: "priyabrat2006@gmail.com",
+      phone: "9668387500",
+      icon: <Phone className="h-8 w-8 text-indigo-600" />
+    },
     {
       name: "Aryan",
       email: "aryan.live.media@gmail.com",
       phone: "7260075767",
       icon: <Phone className="h-8 w-8 text-indigo-600" />
     }
+
   ];
 
   const services = [
